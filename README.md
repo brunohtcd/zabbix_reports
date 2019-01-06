@@ -11,5 +11,5 @@ This script calls Zabbix API to get two reports from Zabbix:
  The script will append information of both reports in .csv files. You can use the .csv files to build a better visualization of the information using Power BI for example.
  
  PS1: You will need a Zabbix user with access to all Zabbix Hosts. 
- PS2: I'm not a Python specialist.
+ 
  
