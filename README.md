@@ -9,7 +9,8 @@ This script calls Zabbix API to get two reports from Zabbix:
  A Docker file using a Python:2.7 base was provided in case you want to wrap the code in a container. 
  A crontab file that you can put in /var/cron.d was provided scheduling the script to run on the irst day of each month. You can schedule the script to run in the Zabbix server or another sever.
  The script will append information of both reports in .csv files. You can use the .csv files to build a better visualization of the information using Power BI for example.
- 
- PS1: You will need a Zabbix user with access to all Zabbix Hosts. 
+ he
+ PS1: You will need a Zabbix user with access to all Zabbix Hosts. Set the username and password using the global variables in getZabbixInfo.py
+ PS2: You need to set your zabbix server's adddress in the funtion getZabbixAPI()
  
  
