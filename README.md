@@ -1,5 +1,5 @@
 # zabbix_reports
-Script to get Zabbix reports from API using python
+Script to get Zabbix reports from API using python.
 This script calls Zabbiz API to get two reports from Zabbix: 
        - Problems (events caused by trigger) that ocurred in a month 
        - IT Service's avaibility in a month
