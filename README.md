@@ -10,3 +10,6 @@ This script calls Zabbiz API to get two reports from Zabbix:
  A crontab file that you can put in /var/cron.d was provided scheduling the script to run on the irst day of each month. You can schedule the script to run in the Zabbix server or another sever.
  The script will append information of both reports in .csv files. You can use the .csv files to build a better visualization of the information using Power BI for example.
  
+ PS1: You will need a Zabbix user with access to all Zabbix Hosts. 
+ PS2: I'm not a Python specialist.
+ 
